@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Secret settings (if any)
+.env
+*.env
+
+# Migrations (optional, but useful in some cases)
+# **/migrations/**/ 
+
+# Pytest and Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.mo
+
+# MyPy and other linting tools
+.mypy_cache/
+.pytest_cache/
+.pylint.d/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.v
